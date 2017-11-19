@@ -3,6 +3,14 @@
 // -----------------------------------------------------------------------------
 /* _nav.scss */
 @media (max-width: 768px) {
+    .logo-desktop {
+        display: none;
+    }
+
+    .logo-mobile {
+        display: block !important;
+    }
+
     .navbar-brand {
         padding: 2px 10px !important;
     }
@@ -12,6 +20,10 @@
     height: 50px;
     padding-left: 10px;
     padding-top: 12.5px;
+}
+
+.logo-mobile {
+    display: none;
 }
 
 .navbar-brand {
@@ -117,34 +129,6 @@
     }
 }
 
-@media (max-width: 767px) {
-    .navbar-default .navbar-nav .open .nav-dropdown-menu {
-        > li > a {
-            color: $nav-colDefault;
-
-            &:hover, &:focus {
-                color: $nav-colHighlight;
-            }
-        }
-
-        > .active {
-            > a, > a:hover, > a:focus {
-                color: $nav-colHighlight;
-                background-color: $nav-bgHighlight;
-            }
-        }
-    }
-
-    .navbar-nav > li > a {
-        padding-top: 16px;
-    }
-
-    .navbar-logo > img {
-        padding-top: 8px;
-        padding-bottom: 8px;
-    }
-}
-
 // Scroll
 .navbar-scroll {
     background-color: $nav-bgScroll;
@@ -247,8 +231,11 @@
 }
 
 @media (max-width: 767px) {
-    .navbar-scroll .navbar-nav .open .nav-dropdown-menu {
-        > li > a {
+    .navbar-default {
+        background-color: $nav-bgScroll;
+        border-color: $nav-bgScroll-Hightlight;
+
+        .navbar-brand {
             color: $nav-colScroll;
 
             &:hover, &:focus {
@@ -256,12 +243,115 @@
             }
         }
 
-        > .active {
-            > a, > a:hover, > a:focus {
-                color: $nav-colScroll-Hightlight;
-                background-color: $nav-bgHighlight;
+        .navbar-text {
+            color: $nav-colScroll;
+        }
+
+        .navbar-nav {
+            > li {
+                > a {
+                    color: $nav-colScroll;
+                    line-height: 35px;
+
+                    &:hover, &:focus {
+                        color: $nav-colScroll-Hightlight;
+                    }
+                }
+
+                @if $nav-dropdown {
+                    > .nav-dropdown-menu {
+                        background-color: $nav-bgDefault;
+
+                        > li {
+                            > a {
+                                color: $nav-colScroll;
+
+                                &:hover, &:focus {
+                                    color: $nav-colScroll-Hightlight;
+                                    background-color: $nav-bgHighlight;
+                                }
+                            }
+
+                            &.divider {
+                                background-color: $nav-bgHighlight;
+                            }
+                        }
+                    }
+                }
+            }
+
+            @if $nav-dropdown {
+                .open .nav-dropdown-menu > .active {
+                    > a, > a:hover, > a:focus {
+                        color: $nav-colScroll-Hightlight;
+                        background-color: $nav-bgHighlight;
+                    }
+                }
+            }
+
+            > .active {
+                > a, > a:hover, > a:focus {
+                    color: $nav-colScroll-Hightlight;
+                    background-color: $nav-bgHighlight;
+                }
+            }
+
+            > .open {
+                > a, > a:hover, > a:focus {
+                    color: $nav-colScroll-Hightlight;
+                    background-color: $nav-bgHighlight;
+                }
             }
         }
+
+        .navbar-toggle {
+            border-color: $nav-bgHighlight;
+
+            &:hover, &:focus {
+                background-color: $nav-bgHighlight;
+            }
+
+            .icon-bar {
+                background-color: $nav-colScroll;
+            }
+        }
+
+        .navbar-collapse,
+        .navbar-form {
+            border-color: $nav-colScroll;
+        }
+
+        .navbar-link {
+            color: $nav-colScroll;
+
+            &:hover {
+                color: $nav-colScroll-Hightlight;
+            }
+
+            > li > a {
+                color: $nav-colDefault;
+
+                &:hover, &:focus {
+                    color: $nav-colHighlight;
+                }
+            }
+
+            > .active {
+                > a, > a:hover, > a:focus {
+                    color: $nav-colHighlight;
+                    background-color: $nav-bgHighlight;
+                }
+            }
+        }
+    }
+
+    .navbar-nav > li > a {
+        padding-top: 16px;
+    }
+
+    .navbar-logo > img {
+        padding-top: 8px;
+        padding-bottom: 8px;
     }
 }
 
@@ -270,7 +360,7 @@
 }
 
 #navbar-close {
-    color: $nav-colHighlight;
+    color: $nav-colScroll-Highlight;
     width: 22px;
     height: 14px;
 }
