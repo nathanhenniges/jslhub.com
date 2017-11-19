@@ -45,7 +45,7 @@ $(document).ready(function () {
         $('.navbar-brand img').attr('src', 'https://mrdemonwolf.github.io/jslhub_com/assets/images/logo_text_dark.png');
       } else {
         $(".navbar-default").removeClass('navbar-scroll');
-        $('.navbar-brand img').attr('src', "https://mrdemonwolf.github.io/jslhub_com/assets/images/logo_text_light.png');
+        $('.navbar-brand img').attr('src', 'https://mrdemonwolf.github.io/jslhub_com/assets/images/logo_text_light.png');
       }
     });
   }
