@@ -5,6 +5,11 @@
 
 menu:
 - {title: Home, url: '#'}
+- {title: Mod Mode, url: '/mod-mode'}
+- {title: Live Streaam, url: '/live-stream/'}
+menu-cta:
+  title: Join Discord
+  url: '#'
 
 #-------------------------------
 # SEO Section
