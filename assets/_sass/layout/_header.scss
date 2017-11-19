@@ -3,14 +3,6 @@
 // -----------------------------------------------------------------------------
 /* _nav.scss */
 @media (max-width: 768px) {
-    .logo-desktop {
-        display: none;
-    }
-
-    .logo-mobile {
-        display: block !important;
-    }
-
     .navbar-brand {
         padding: 2px 10px !important;
     }
@@ -20,10 +12,6 @@
     height: 50px;
     padding-left: 10px;
     padding-top: 12.5px;
-}
-
-.logo-mobile {
-    display: none;
 }
 
 .navbar-brand {
@@ -128,11 +116,6 @@
         }
     }
 }
-.navbar-scroll {
-    background-color: $nav-bgScroll;
-    border-color: $nav-bgScroll-Hightlight;
-    transition: all 500ms;
-}
 
 @media (max-width: 767px) {
     .navbar-default .navbar-nav .open .nav-dropdown-menu {
@@ -162,6 +145,126 @@
     }
 }
 
+// Scroll
+.navbar-scroll {
+    background-color: $nav-bgScroll;
+    border-color: $nav-bgScroll-Hightlight;
+    transition: all 800ms;
+
+    .navbar-brand {
+        color: $nav-colScroll;
+
+        &:hover, &:focus {
+            color: $nav-colScroll-Hightlight;
+        }
+    }
+
+    .navbar-text {
+        color: $nav-colScroll;
+    }
+
+    .navbar-nav {
+        > li {
+            > a {
+                color: $nav-colScroll;
+                line-height: 35px;
+
+                &:hover, &:focus {
+                    color: $nav-colScroll-Hightlight;
+                }
+            }
+
+            @if $nav-dropdown {
+                > .nav-dropdown-menu {
+                    background-color: $nav-bgDefault;
+
+                    > li {
+                        > a {
+                            color: $nav-colScroll;
+
+                            &:hover, &:focus {
+                                color: $nav-colScroll-Hightlight;
+                                background-color: $nav-bgHighlight;
+                            }
+                        }
+
+                        &.divider {
+                            background-color: $nav-bgHighlight;
+                        }
+                    }
+                }
+            }
+        }
+
+        @if $nav-dropdown {
+            .open .nav-dropdown-menu > .active {
+                > a, > a:hover, > a:focus {
+                    color: $nav-colScroll-Hightlight;
+                    background-color: $nav-bgHighlight;
+                }
+            }
+        }
+
+        > .active {
+            > a, > a:hover, > a:focus {
+                color: $nav-colScroll-Hightlight;
+                background-color: $nav-bgHighlight;
+            }
+        }
+
+        > .open {
+            > a, > a:hover, > a:focus {
+                color: $nav-colScroll-Hightlight;
+                background-color: $nav-bgHighlight;
+            }
+        }
+    }
+
+    .navbar-toggle {
+        border-color: $nav-bgHighlight;
+
+        &:hover, &:focus {
+            background-color: $nav-bgHighlight;
+        }
+
+        .icon-bar {
+            background-color: $nav-colScroll;
+        }
+    }
+
+    .navbar-collapse,
+    .navbar-form {
+        border-color: $nav-colScroll;
+    }
+
+    .navbar-link {
+        color: $nav-colScroll;
+
+        &:hover {
+            color: $nav-colScroll-Hightlight;
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .navbar-scroll .navbar-nav .open .nav-dropdown-menu {
+        > li > a {
+            color: $nav-colScroll;
+
+            &:hover, &:focus {
+                color: $nav-colScroll-Hightlight;
+            }
+        }
+
+        > .active {
+            > a, > a:hover, > a:focus {
+                color: $nav-colScroll-Hightlight;
+                background-color: $nav-bgHighlight;
+            }
+        }
+    }
+}
+
 .container > .navbar-header, .container-fluid > .navbar-header, .container > .navbar-collapse, .container-fluid > .navbar-collapse {
     margin-bottom: 0.2em;
 }
@@ -174,6 +277,7 @@
 
 .navbar {
     margin-bottom: 0px;
+
     // border-bottom: 1px solid $brand-color-alt;
 }
 
@@ -188,21 +292,23 @@
 }
 
 .btn-cta {
-  padding: 8px;
-  color: #ffffff;
-  background: #2d3b46;
-  border: 2px soild #ffffff;
-  font-family: $main-font;
-  font-size: 1.25em;
-  &:hover, &:focus {
+    padding: 8px;
     color: #ffffff;
-    background: #000000;
-    transition: all 1s;
-  }
+    background: #2d3b46;
+    border: 2px soild #ffffff;
+    font-family: $main-font;
+    font-size: 1.25em;
+
+    &:hover, &:focus {
+        color: #ffffff;
+        background: #000000;
+        transition: all 1s;
+    }
 }
+
 .navbar-btn {
-  line-height: 35px;
-  padding: 12px;
-  margin-top: 0px;
-  margin-bottom: 0px;
+    line-height: 35px;
+    padding: 12px;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
