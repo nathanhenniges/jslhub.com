@@ -13,12 +13,12 @@
 # you will see them access via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the template via {{ site.myvariable }}.
-title: "MrDemonWolf Boilerplate"
-email: your-email@domain.com
+title: "JslHub"
+email: jsl@jslhub.com
 description: Quick starter project for Jekyll including full setup for gulp, Sass, Autoprefixer, Browserify, Imagemin, Browsersync, PostCSS etc.
 keywords:
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/jslhub_com" # the subpath of your site, e.g. /blog
+url: "https://mrdemonwolf.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username: mrdemonwolf
 encoding: UTF-8
 brand-color: '#00328d'
