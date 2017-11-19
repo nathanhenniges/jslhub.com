@@ -128,6 +128,11 @@
         }
     }
 }
+.navbar-scroll {
+    background-color: $nav-bgScroll;
+    border-color: $nav-bgScroll-Hightlight;
+    transition: all 500ms;
+}
 
 @media (max-width: 767px) {
     .navbar-default .navbar-nav .open .nav-dropdown-menu {
@@ -189,10 +194,10 @@
   border: 2px soild #ffffff;
   font-family: $main-font;
   font-size: 1.25em;
-  transition: 1s;
   &:hover, &:focus {
     color: #ffffff;
     background: #000000;
+    transition: all 1s;
   }
 }
 .navbar-btn {

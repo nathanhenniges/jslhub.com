@@ -32,3 +32,19 @@ $(document).ready(function () {
         $("#cookieConsent").fadeOut(200);
     });
 });
+
+$(document).ready(function () {
+  var scroll_start = 0;
+  var startchange = $('#scroll_navbar');
+  var offset = startchange.offset();
+  if (startchange.length) {
+    $(document).scroll(function () {
+      scroll_start = $(this).scrollTop();
+      if (scroll_start > offset.top) {
+        $('.navbar-default').addClass('navbar-scroll');
+      } else {
+        $(".navbar-default").removeClass('navbar-scroll');
+      }
+    });
+  }
+});
