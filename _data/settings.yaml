@@ -12,6 +12,13 @@ menu-cta:
   url: '#'
 
 #-------------------------------
+# Hero Section
+
+hero:
+  heeader: Home Of All Things JSL
+  sub-header: Nothing but JSL
+
+#-------------------------------
 # SEO Section
 
 seo:
