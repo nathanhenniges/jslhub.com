@@ -1,0 +1,22 @@
+{
+  "name": "jekyllb-boilerplate",
+  "description": "jekyllb-boilerplate",
+  "main": "gulpfile.js",
+  "authors": [
+    "DemonWolf"
+  ],
+  "license": "BSD-2-Clause",
+  "homepage": "https://github.com/MrDemonWolf/jekyllb-boilerplate",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "lib",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "font-awesome": "^4.7.0",
+    "bootstrap": "3.3.7",
+    "cookieconsent": "^3.0.4"
+  }
+}
