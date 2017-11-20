@@ -1,0 +1,54 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the discord component.
+// -----------------------------------------------------------------------------
+.discord {
+    text-align: center;
+    color: white;
+    background: url(../images/discord_bg.png) no-repeat bottom center;
+    background-size: cover;
+    height: 100%;
+    padding-top: 27px;
+    padding-bottom: 27px;
+
+    .body {
+        display: table-cell;
+    }
+
+    .text {
+        color: #ffffff;
+        font-family: $main-font;
+        font-size: 3.15em;
+        display: inline-block;
+    }
+
+    .header {}
+
+    .sub-header {}
+
+    .inner {
+        background-color: transparent !important;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .cta-button {
+    padding-bottom: 15px;
+}
+
+.btn {
+    border-radius: 5px;
+    margin: 0 0 0 0;
+    font-weight: 700;
+
+    &.btn-discord {
+        color: $button_background_effect_font;
+        background-color: $button_background_effect;
+
+        &.btn-discord.active.focus, .btn-discord.active:focus, .btn-discord.active:hover, .btn-discord:active.focus, .btn-discord:active:focus, .btn-discord:active:hover, .btn-discord:hover {
+            background: darken($button_background_effect, 15%);
+            color: button_background_effect_font;
+            transition: all 500ms;
+        }
+    }
+}
+
+}

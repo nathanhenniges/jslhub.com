@@ -19,6 +19,16 @@ hero:
   sub-header: Nothing but JSL
 
 #-------------------------------
+# Discord Section
+
+discord:
+  heeader: Check Out My Discord
+  sub-header: Want to chat with me and meet my community members? Join today!
+discord-button:
+  title:
+  url:
+
+#-------------------------------
 # SEO Section
 
 seo:
