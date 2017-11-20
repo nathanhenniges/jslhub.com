@@ -24,11 +24,11 @@
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav navbar-right">{% for item in site.data.settings.menu %}
         <li>
-          <a href="{{ item.url }}" alt="{{ item.title }}">{{ item.title }}</a>
+          <a href="{{ item.url }}">{{ item.title }}</a>
         </li>{% endfor %}
         <li>
           <p class="navbar-btn">
-            <a href="{{ site.data.settings.menu-cta.url }}" alt="{{ site.data.settings.menu-cta.title }}" rel="nofollow" class="btn btn-default btn-cta">{{ site.data.settings.menu-cta.title }}</a>
+            <a href="{{ site.data.settings.menu-cta.url }}" alt="{{ site.data.settings.menu-cta.title }}" class="btn btn-default btn-cta">{{ site.data.settings.menu-cta.title }}</a>
           </p>
         </li>
       </ul>
