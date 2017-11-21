@@ -32,8 +32,8 @@ discord-button:
 # SEO Section
 
 seo:
-  twitter-creator: 'https://www.twitter.com/example'
-  twitter-site: 'https://www.twitter.com/example'
+  twitter-creator: '@example'
+  twitter-site: '@example'
   type: 'website'
   google-analytics: UA-xxxx-1
 
