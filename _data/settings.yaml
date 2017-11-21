@@ -37,8 +37,8 @@ about: I love computers and playing video games.. More to be added later :).
 # SEO Section
 
 seo:
-  twitter-creator: '@example'
-  twitter-site: '@example'
+  twitter-creator: '@mrdemonwolf'
+  twitter-site: '@notjsl'
   type: 'website'
   google-analytics: UA-xxxx-1
 
@@ -46,7 +46,8 @@ seo:
 # Social Icons and URls
 
 social:
-- {icon: 'fa-spotify', color: 'spotify-color', url: 'https://example.com'}
+- {icon: 'fa-twitch', color: 'twitch-color', url: 'https://www.twitch.tv/jsl7'}
+- {icon: 'fa-twitter', color: 'twitter-color', url: 'https://www.twitter.com/notjsl'}
 
 social-url:
   spotify: https://example.com
