@@ -25,8 +25,13 @@ discord:
   heeader: Check Out My Discord
   sub-header: Want to chat with me and meet my community members? Join today!
 discord-button:
-  title:
-  url:
+  title: JOIN DISCORD
+  url: https://discord.gg/gAtK3q9
+
+#-------------------------------
+# About Section
+
+about: I love computers and playing video games.. More to be added later :).
 
 #-------------------------------
 # SEO Section

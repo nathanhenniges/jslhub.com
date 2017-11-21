@@ -1,0 +1,23 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the What do I do  component.
+// -----------------------------------------------------------------------------
+.whatdoido {
+  background-color: $brand-color-alt;
+    .header {
+        font-family: $main-font;
+        color: #ffffff;
+        font-size: 2em;
+    }
+
+    .sub-header {
+        font-family: $main-font;
+        color: #ffffff;
+        font-size: 1.25em;
+    }
+
+    .text {
+        font-family: $main-font;
+        color:  #ffffff;
+        font-size: 1em;
+    }
+}

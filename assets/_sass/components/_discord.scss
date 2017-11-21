@@ -15,40 +15,43 @@
     }
 
     .text {
-        color: #ffffff;
+        color: #000000;
         font-family: $main-font;
-        font-size: 3.15em;
         display: inline-block;
     }
 
-    .header {}
+    .header {
+        font-size: 2em;
+    }
 
-    .sub-header {}
+    .sub-header {
+        font-size: 1em;
+    }
 
     .inner {
         background-color: transparent !important;
         padding-top: 20px;
         padding-bottom: 20px;
     }
+
     .cta-button {
-    padding-bottom: 15px;
-}
+        padding-bottom: 15px;
+    }
 
-.btn {
-    border-radius: 5px;
-    margin: 0 0 0 0;
-    font-weight: 700;
+    .btn {
+        border-radius: 5px;
+        margin: 0 0 0 0;
+        font-weight: 700;
 
-    &.btn-discord {
-        color: $button_background_effect_font;
-        background-color: $button_background_effect;
+        &.btn-discord {
+            color: $button_background_effect_font;
+            background-color: $button_background_effect;
 
-        &.btn-discord.active.focus, .btn-discord.active:focus, .btn-discord.active:hover, .btn-discord:active.focus, .btn-discord:active:focus, .btn-discord:active:hover, .btn-discord:hover {
-            background: darken($button_background_effect, 15%);
-            color: button_background_effect_font;
-            transition: all 500ms;
+            &.btn-discord.active.focus, .btn-discord.active:focus, .btn-discord.active:hover, .btn-discord:active.focus, .btn-discord:active:focus, .btn-discord:active:hover, .btn-discord:hover {
+                background: darken($button_background_effect, 15%);
+                color: button_background_effect_font;
+                transition: all 500ms;
+            }
         }
     }
-}
-
 }
