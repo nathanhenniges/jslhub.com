@@ -1,0 +1,20 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the live stream component.
+// -----------------------------------------------------------------------------
+.live_stream {
+    .twitch_chat {
+        iframe {
+            min-height: 720px;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .live_stream {
+        .twitch_chat {
+            iframe {
+                display: none;
+            }
+        }
+    }
+}
