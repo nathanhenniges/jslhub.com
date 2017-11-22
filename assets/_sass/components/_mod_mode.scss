@@ -1,0 +1,14 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the mod mode  component.
+// -----------------------------------------------------------------------------
+.mod_mode {
+    .header {
+        font-family: $main-font;
+        color: $brand-color;
+        font-size: 1.5em;
+        text-transform: capitalize;
+    }
+    .mod_chat {
+      min-height: 500px;
+    }
+}

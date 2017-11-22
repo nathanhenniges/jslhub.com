@@ -60,6 +60,14 @@ music-panel:
     - {image: "https://static-cdn.jtvnw.net/jtv_user_pictures/panel-54252779-image-e81ea45e0e71b5c2-320.png", title: "NoCopyrightSounds"}
 
 #-------------------------------
+# Mod Mode  Section
+
+twitch_mod:
+  - {channel: darkosto}
+  - {channel: mrdemonwolf}
+  - {channel: eltibbzo}
+
+#-------------------------------
 # SEO Section
 
 seo:
