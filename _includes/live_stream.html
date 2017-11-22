@@ -9,26 +9,26 @@
       </div>
     </div>
   </div>
-  <div class="container">
+  <div class="container panels">
     <div class="col-md-4">
-      <div class="panels">
+      <div class="panel">
         <h1 class="header">{{ site.data.settings.rules-panel.title }}</h1>{% for item in site.data.settings.rules-panel.rules %}
-        <p> {{item.number }} {{ item.rule }}</p>
+        <p class="rules"> {{item.number }} {{ item.rule }}</p>
       </div>{% endfor%}
     </div>
     <div class="col-md-4">
-      <div class="panels">
+      <div class="panel">
         <h1 class="header">{{ site.data.settings.streamers-panel.title }}</h1>
         <ul class="list-unstyled">
           {% for item in site.data.settings.streamers-panel.streamers %}
           <li>
-            <a href="{{ item.url }}">{{ item.name }}</a>
+            <a class="links" href="{{ item.url }}">{{ item.name }}</a>
           </li>{% endfor%}
         </ul>
       </div>
     </div>
     <div class="col-md-4">
-      <div class="panels">
+      <div class="panel">
         <h1 class="header">{{ site.data.settings.music-panel.title }}</h1>
         <ul class="list-unstyled">
           {% for item in site.data.settings.music-panel.music %}
