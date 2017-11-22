@@ -1,6 +1,7 @@
 // -----------------------------------------------------------------------------
-// This file contains all styles related to the live stream component.
+// This file contains all styles related to the twitch component.
 // -----------------------------------------------------------------------------
+
 .twitchWrapper {
     position: relative;
 }
@@ -39,38 +40,5 @@
 
     .twitchChat {
         display: none;
-    }
-}
-
-.live_stream {
-    padding-top: 50px;
-    padding-bottom: 50px;
-}
-
-.panels {
-    padding-top: 25px;
-    padding-bottom: 25px;
-
-    .panel {
-        .header {
-            font-family: $main-font;
-            color: $brand-color;
-            font-size: 1.5em;
-        }
-        .rules {
-          font-family: $second-font;
-          color: #000000;
-          font-size: 1.15em;
-
-        }
-        .links {
-            font-family: $second-font;
-            color: #000000;
-
-            &:hover {
-              color: lighten( #000000, 0.15);
-              text-decoration: none;
-            }
-        }
     }
 }

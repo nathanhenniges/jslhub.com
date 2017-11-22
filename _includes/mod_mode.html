@@ -1,0 +1,11 @@
+<div class="container mod_mode">
+  {% for item in site.data.settings.twitch_mod %}
+  <div class="col-md-4">
+    <div class="header text-center">
+      {{ item.channel }}
+    </div>
+    <div>
+      <iframe class="mod_chat" frameborder="0" scrolling="no" src="https://www.twitch.tv/{{ item.channel }}/chat"></iframe>
+    </div>
+  </div>{% endfor %}
+</div>
