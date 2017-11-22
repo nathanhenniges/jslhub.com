@@ -24,12 +24,12 @@
 
     .inner {
         background-color: transparent !important;
-        padding-top: 75px;
-        padding-bottom: 75px;
+        padding-top: 58px;
+        padding-bottom: 58px;
         .header {
           font-family: $main-font;
           color: #ffffff;
-          font-size: 1.10em;
+          font-size: 1em;
         }
         .sub-header {
           font-family: $main-font;
@@ -39,4 +39,4 @@
     }
 }
 
-#hero {}
+// #hero {}

@@ -4,11 +4,12 @@
 .discord {
     text-align: center;
     color: white;
-    background: url(../images/discord_bg.png) no-repeat bottom center;
+    // background: url(../images/discord_bg.png) no-repeat bottom center;
     background-size: cover;
     height: 100%;
     padding-top: 27px;
     padding-bottom: 27px;
+    margin: 0;
 
     .body {
         display: table-cell;
@@ -20,18 +21,18 @@
         display: inline-block;
     }
 
-    .header {
-        font-size: 2em;
-    }
-
-    .sub-header {
-        font-size: 1em;
-    }
-
     .inner {
         background-color: transparent !important;
         padding-top: 20px;
         padding-bottom: 20px;
+
+        .header {
+            font-size: 2.5em;
+        }
+
+        .sub-header {
+            font-size: 1.25em;
+        }
     }
 
     .cta-button {
