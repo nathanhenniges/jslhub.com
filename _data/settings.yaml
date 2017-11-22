@@ -9,7 +9,7 @@ menu:
 - {title: Live Streaam, url: '/live-stream/'}
 menu-cta:
   title: Join Discord
-  url: '#'
+  url: 'https://discord.gg/UccND2w'
 
 #-------------------------------
 # Hero Section
@@ -26,7 +26,7 @@ discord:
   sub-header: Want to chat with me and meet my community members? Join today!
 discord-button:
   title: JOIN DISCORD
-  url: https://discord.gg/gAtK3q9
+  url: https://discord.gg/UccND2w
 
 #-------------------------------
 # About Section
