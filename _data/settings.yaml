@@ -34,6 +34,32 @@ discord-button:
 about: I love computers and playing video games.. More to be added later :).
 
 #-------------------------------
+# Live Stream  Section
+
+twitch-channel: jsl7
+
+rules-panel:
+  title: RULES
+  rules:
+    - {number: "1", rule: "No links unless you are given permission"}
+
+streamers-panel:
+  title: Awesome Streamers
+  streamers:
+    - {name: "tibbzeh" , url: "https://www.twitch.tv/tibbzeh"}
+    - {name: "jonbams" , url: "https://www.twitch.tv/jonbams"}
+    - {name: "darkosto" , url: "https://www.twitch.tv/darkosto"}
+    - {name: "wyld" , url: "https://www.twitch.tv/wyld"}
+    - {name: "ascothero" , url: "https://www.twitch.tv/ascothero"}
+    - {name: "pitchit" , url: "https://www.twitch.tv/pitchit"}
+    - {name: "supernuke4" , url: "https://www.twitch.tv/supernuke4"}
+
+music-panel:
+  title: Music
+  music:
+    - {image: "https://static-cdn.jtvnw.net/jtv_user_pictures/panel-54252779-image-e81ea45e0e71b5c2-320.png", title: "NoCopyrightSounds"}
+
+#-------------------------------
 # SEO Section
 
 seo:

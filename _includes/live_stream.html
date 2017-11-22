@@ -1,13 +1,41 @@
 <div class="container live_stream">
   <div class="row">
-    <div class="col-md-8">
-      <div class="embed-responsive embed-responsive-16by9">
-        <iframe class="embed-responsive-item" src="https://player.twitch.tv/?channel=jsl7"></iframe>
+    <div class='twitchWrapper'>
+      <div class='twitchStream'>
+        <iframe src="https://player.twitch.tv/?channel={{ site.data.settings.twitch-channel }}" frameborder="0" scrolling="no"></iframe>
+      </div>
+      <div class='twitchChat'>
+        <iframe frameborder="0" scrolling="no" src="https://www.twitch.tv/{{ site.data.settings.twitch-channel }}/chat"></iframe>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="col-md-4">
+      <div class="panels">
+        <h1 class="header">{{ site.data.settings.rules-panel.title }}</h1>{% for item in site.data.settings.rules-panel.rules %}
+        <p> {{item.number }} {{ item.rule }}</p>
+      </div>{% endfor%}
+    </div>
+    <div class="col-md-4">
+      <div class="panels">
+        <h1 class="header">{{ site.data.settings.streamers-panel.title }}</h1>
+        <ul class="list-unstyled">
+          {% for item in site.data.settings.streamers-panel.streamers %}
+          <li>
+            <a href="{{ item.url }}">{{ item.name }}</a>
+          </li>{% endfor%}
+        </ul>
       </div>
     </div>
     <div class="col-md-4">
-      <div class="embed-responsive twitch_chat">
-        <iframe class="embed-responsive-item" src="https://www.twitch.tv/jsl7/chat" frameborder="0" scrolling="no"></iframe>
+      <div class="panels">
+        <h1 class="header">{{ site.data.settings.music-panel.title }}</h1>
+        <ul class="list-unstyled">
+          {% for item in site.data.settings.music-panel.music %}
+          <li>
+            <img src="{{ item.image }}" class="img-responsive" alt="{{ item.title }}">
+          </li>{% endfor%}
+        </ul>
       </div>
     </div>
   </div>
