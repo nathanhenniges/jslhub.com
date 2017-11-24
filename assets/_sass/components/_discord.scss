@@ -4,6 +4,7 @@
 .discord {
     text-align: center;
     color: white;
+    background: $brand-color-alt-2;
     // background: url(../images/discord_bg.png) no-repeat bottom center;
     background-size: cover;
     height: 100%;
@@ -54,5 +55,11 @@
                 transition: all 500ms;
             }
         }
+    }
+}
+
+#discord {
+    .jumbotron {
+        background-color: transparent;
     }
 }
