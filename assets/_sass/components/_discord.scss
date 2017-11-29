@@ -5,6 +5,7 @@
     text-align: center;
     color: white;
     background: $brand-color-alt-2;
+
     // background: url(../images/discord_bg.png) no-repeat bottom center;
     background-size: cover;
     height: 100%;
@@ -25,10 +26,12 @@
     .inner {
         background-color: transparent !important;
         padding-top: 20px;
-        padding-bottom: 8px;
+        padding-bottom: 0px;
 
         .header {
+            font-family: $main-font;
             font-size: 2.5em;
+            color: $brand-color;
         }
 
         .sub-header {
