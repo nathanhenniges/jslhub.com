@@ -7,6 +7,7 @@ menu:
 - {title: Home, url: '#'}
 - {title: Mod Mode, url: '/mod-mode'}
 - {title: Live Streaam, url: '/live-stream/'}
+
 menu-cta:
   title: Join Discord
   url: 'https://discord.gg/UccND2w'
@@ -24,6 +25,7 @@ hero:
 discord:
   heeader: Check Out My Discord
   sub-header: Want to chat with me and meet my community members? Join today!
+
 discord-button:
   title: JOIN DISCORD
   url: https://discord.gg/UccND2w
