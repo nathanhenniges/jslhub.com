@@ -23,7 +23,7 @@ $(function () {
     $('.navbar-collapse').collapse('hide');
   });
 });
-
+// Cookie Consent
 $(document).ready(function () {
   setTimeout(function () {
     $("#cookieConsent").fadeIn(200);
@@ -33,6 +33,7 @@ $(document).ready(function () {
   });
 });
 
+// Navbar Effect
 $(document).ready(function () {
   var scroll_start = 0;
   var startchange = $('#scroll_navbar');
@@ -50,5 +51,3 @@ $(document).ready(function () {
     });
   }
 });
-
-
