@@ -2,24 +2,22 @@
   <div class="container-fuild">
     <div class="container whatdoido">
       <div class="header text-center">
-        WHAT DOES JSL DO?
+        {{ site.data.settings.whatdoido.headaer }}
       </div>
       <div class="col-md-6">
         <div class="sub-header">
-          <i class="fa fa-gamepad fa-1x"> Gaming</i>
+          <i class="fa fa-gamepad fa-1x"> {{ site.data.settings.whatdoido.left.header }}</i>
         </div>
         <div class="text">
-          JSL loves to play modded Minecraft, RimWorld
+          {{ site.data.settings.whatdoido.left.description }}
         </div>
       </div>
       <div class="col-md-6">
         <div class="sub-header">
-          <i class="fa fa-twitch fa-1x">
-            Watches &amp; Mods Channels
-          </i>
+          <i class="fa fa-twitch fa-1x"> {{ site.data.settings.whatdoido.right.header }}</i>
         </div>
         <div class="text">
-          Darksoto, Pitchit ,crabs_ and MrDemonWolf just to name some of them.
+          {{ site.data.settings.whatdoido.right.description }}
         </div>
       </div>
     </div>

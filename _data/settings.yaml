@@ -22,8 +22,20 @@ hero:
 #-------------------------------
 # Discord Section
 
+whatdoido:
+  header: WHAT DOES JSL DO?
+  left:
+    header: Gaming
+    description: Plays modded Minecraft and RimWorld
+  right:
+    header: Watches & Mods Channels
+    description:  Darksoto, Pitchit ,crabs_ and MrDemonWolf just to name some of them.
+
+#-------------------------------
+# Discord Section
+
 discord:
-  heeader: Check Out My Discord
+  header: Check Out My Discord
   sub-header: Want to chat with me and meet my community members? Join today!
 
 discord-button:

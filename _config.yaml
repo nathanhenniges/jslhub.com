@@ -15,7 +15,7 @@
 # in the template via {{ site.myvariable }}.
 title: "JslHub"
 email: jsl@jslhub.com
-description: Quick starter project for Jekyll including full setup for gulp, Sass, Autoprefixer, Browserify, Imagemin, Browsersync, PostCSS etc.
+description: Just JSL being JSL...
 keywords:
 baseurl: "/jslhub_com" # the subpath of your site, e.g. /blog
 url: "https://mrdemonwolf.github.io" # the base hostname & protocol for your site, e.g. http://example.com
@@ -26,8 +26,7 @@ brand-color: '#00328d'
 # Build settings
 markdown: kramdown
 permalink: pretty # Enabled pretty urls /test/ other then test.html
-plugins:
-  # - jekyll-feed
+
 exclude:
   - Gemfile
   - Gemfile.lock
