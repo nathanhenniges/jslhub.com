@@ -6,7 +6,7 @@
 menu:
 - {title: Home, url: '/'}
 - {title: Mod Mode, url: '/mod-mode'}
-- {title: Live Streaam, url: '/live-stream/'}
+- {title: Live Stream, url: '/live-stream/'}
 
 menu-cta:
   title: Join Discord
@@ -84,9 +84,6 @@ seo:
 social:
 - {icon: 'fa-twitch', color: 'twitch-color', url: 'https://www.twitch.tv/jsl7'}
 - {icon: 'fa-twitter', color: 'twitter-color', url: 'https://www.twitter.com/notjsl'}
-
-social-url:
-  spotify: https://example.com
 
 #-------------------------------
 # Modified Date
