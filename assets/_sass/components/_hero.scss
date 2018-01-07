@@ -27,16 +27,17 @@
         background-color: transparent !important;
         padding-top: 58px;
         padding-bottom: 58px;
+
         .header {
-          font-family: $main-font;
-          color: #ffffff;
-          font-size: 1em;
+            font-family: $main-font;
+            color: #ffffff;
+            font-size: 1em;
         }
+
         .sub-header {
-          font-family: $main-font;
-          color: #ffffff;
-          font-size: 0.75em;
+            font-family: $main-font;
+            color: #ffffff;
+            font-size: 0.75em;
         }
     }
-
-// #hero {}
+}

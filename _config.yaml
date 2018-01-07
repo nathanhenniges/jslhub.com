@@ -17,8 +17,8 @@ title: "JslHub"
 email: jsl@jslhub.com
 description: Just JSL being JSL...
 keywords:
-baseurl: "/jslhub_com" # the subpath of your site, e.g. /blog
-url: "https://mrdemonwolf.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://jslhub.com" # the base hostname & protocol for your site, e.g. http://example.com
 github_username: mrdemonwolf
 encoding: UTF-8
 brand-color: '#00328d'
