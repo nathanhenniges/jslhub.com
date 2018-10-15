@@ -1,4 +1,4 @@
-# jslhub_om
+# jekyll-jslhub
 
 ## Copyright
 
