@@ -1,5 +1,5 @@
-# jekyll-jslhub
+# jslhub
 
 ## Copyright
 
-Copyright 2018 MrDemonWolf.
+Copyright 2018 Nathan Henniges.
